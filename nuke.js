@@ -16,14 +16,17 @@ if(msg.content.toLowerCase().startsWith( prefix + "on")){
     msg.delete();
     msg.channel.send("🟢 - Hello, I am Online !");
 }
+if(msg.content.toLowerCase().startsWith( prefix + "invite")){
+    msg.delete();
+    msg.channel.send("Here is my invite link :\n--> https://discord.com/oauth2/authorize?client_id=840148478566334474&scope=bot&permissions=805314622");
+}    
 if(msg.content.toLowerCase().startsWith( prefix + "prefix")){
     msg.delete();
     msg.channel.send("My prefix is `"+ prefix +"`");
 }  
 if(msg.content.toLowerCase().startsWith( prefix + "setstatus help")){
     msg.delete();
-    msg.channel.send("A help page has been sent to you in dm !");
-    msg.author.send({
+    msg.channel.send({
         embed: {
             color: 0xff0000,
             author: { name: " DΞLTΔ | " + prefix + "setstatus" },
@@ -76,7 +79,7 @@ if(msg.content.toLowerCase().startsWith( prefix + "help")){
         embed: {
             color: 0xff0000,
             author: { name: " DΞLTΔ | " + prefix + "help" },
-            description: prefix + "on - Gives you bot status\n"+ prefix + "prefix - Gives you bot prefix\n"+ prefix + "setstatus help - Send you a help page on the setstatus command\n" + prefix + "nuke - Bans all members & deletes all roles and channels\n" + prefix + "delete - Deletes all channels and roles\n" + prefix + "ban - Bans all members in the discord\n **Have Fun!**",
+            description: prefix + "on - Gives you bot status\n"+ prefix + "prefix - Gives you bot prefix\n"+ prefix + "invite - Give you the invite link of this bot" + prefix + "setstatus help - Send you a help page on the setstatus command\n" + prefix + "nuke - Bans all members & deletes all roles and channels\n" + prefix + "delete - Deletes all channels and roles\n" + prefix + "ban - Bans all members in the discord\n **Have Fun!**",
             timestamp: new Date(),
             footer: {
                 text: 'Created by Showgam#3786',
