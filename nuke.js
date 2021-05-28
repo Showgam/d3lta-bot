@@ -79,7 +79,7 @@ if(msg.content.toLowerCase().startsWith( prefix + "help")){
         embed: {
             color: 0xff0000,
             author: { name: " DΞLTΔ | " + prefix + "help" },
-            description: prefix + "on - Gives you bot status\n"+ prefix + "prefix - Gives you bot prefix\n"+ prefix + "invite - Give you the invite link of this bot" + prefix + "setstatus help - Send you a help page on the setstatus command\n" + prefix + "nuke - Bans all members & deletes all roles and channels\n" + prefix + "delete - Deletes all channels and roles\n" + prefix + "ban - Bans all members in the discord\n **Have Fun!**",
+            description: prefix + "on - Gives you bot status\n"+ prefix + "prefix - Gives you bot prefix\n"+ prefix + "invite - Give you the invite link of this bot\n" + prefix + "setstatus help - Send you a help page on the setstatus command\n" + prefix + "nuke - Bans all members & deletes all roles and channels\n" + prefix + "delete - Deletes all channels and roles\n" + prefix + "ban - Bans all members in the discord\n **Have Fun!**",
             timestamp: new Date(),
             footer: {
                 text: 'Created by Showgam#3786',
