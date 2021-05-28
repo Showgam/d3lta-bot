@@ -1,0 +1,17 @@
+{
+  "name": "delta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nuke.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "discord.js": "^12.5.3",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node nuke.js"
+  },
+  "author": "Showgam",
+  "license": "ISC"
+}
